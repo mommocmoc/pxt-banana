@@ -1,7 +1,7 @@
 {
-    "name": "pxt-sonar",
+    "name": "pxt-sonar-test",
     "version": "0.0.5",
-    "description": "A MakeCode package to use sonar sensors",
+    "description": "Adding Millimeters unit for Sonar",
     "license": "MIT",
     "dependencies": {
         "core": "*"
