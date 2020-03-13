@@ -4,7 +4,9 @@ enum PingUnit {
     //% block="cm"
     Centimeters,
     //% block="inches"
-    Inches
+    Inches,
+    //% block="mm"
+    Millimeters
 }
 
 /**
@@ -35,6 +37,7 @@ namespace sonar {
         switch (unit) {
             case PingUnit.Centimeters: return Math.idiv(d, 58);
             case PingUnit.Inches: return Math.idiv(d, 148);
+            case PingUnit.Millimeters: return Math.idiv(d, 0.58)
             default: return d ;
         }
     }
